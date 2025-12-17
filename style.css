@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    display: flex;
+    width: 317px;
+    height: 64px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #161619;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+
+main {
+    width: 317px;
+    height: 399px;
+    background: #1A1B21;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 36px;
+    padding-right: 34px;
+    padding-top: 2px;
+}
+
+main>h2 {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #F5F5F5;
+    margin-bottom: 5px;
+
+}
+
+main>p {
+    margin-top: 5px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 10.24px;
+    leading-trim: NONE;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #DCDCDC;
+}
+
+main>h1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 25px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 7px;
+}
+
+main>h3 {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12.8px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #F3BF99;
+    margin-top: 7px;
+    margin-bottom: 40px;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+
+#btn>button {
+    cursor: pointer;
+    width: 115px;
+    height: 34px;
+    border-radius: 6px;
+    border-width: 1px;
+    padding-top: 9px;
+    padding-right: 13px;
+    padding-bottom: 9px;
+    padding-left: 11px;
+    gap: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    /* padding: 9px 28.5px; */
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    leading-trim: NONE;
+    line-height: 16px;
+    letter-spacing: 0%;
+    display: flex;
+    align-items: center;
+}
+
+#btn>button>svg {
+    width: 16px;
+    height: 16px;
+
+}
+
+#email {
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
+
+    width: 115px;
+    height: 34px;
+
+    background: #FFFFFF;
+
+    border: 1px solid #D1D5DB;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+
+}
+
+#btn>button:last-child {
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px 9px 11px;
+gap: 8px;
+
+width: 115px;
+height: 34px;
+
+background: #5093E2;
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+font-family: Inter;font-weight: 500;font-size: 14px;leading-trim: NONE;line-height: 16px;letter-spacing: 0%;
+color:#FFFFFF;
+}
+
+#LinkedIn>.bi-linkedin {
+    fill: #FFFFFF;
+}
+
+#email>svg{
+    color: #1E1F26;
+}
+
+header{
+    /* Rectangle 90 */
+
+width: 317px;
+height: 317px;
+
+background: url("./Images/PP_Somdeb.jpg");
+background-size: cover;
+border-radius: 10px 10px 0px 0px;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23252c;
+    margin: 0;
+}
+#root{
+    margin: 0;
+}
+.svg-button {
+  background-color: transparent; /* Remove default button background */
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  color:#918E9B;
+}
+.bi{
+     width: 25.000001907348633px;
+    height: 25.000001907348633px;
+    opacity: 1;
+    color: #918E9B;
+    fill:#918E9B;
+    pointer-events: none;
+}
